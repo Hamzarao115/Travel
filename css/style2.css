@@ -1,0 +1,94 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    line-height: 1.7;
+}
+/* ############ html element tags ################ */
+html{
+    font-size: 62.5%; 
+}
+ul li{
+    list-style: none;
+}
+
+a{
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.logo a{
+    font-size: 1.7rem;
+}
+p, li{
+    font-size: 1.3rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.05em;
+}
+  
+h1,h2,h3{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.5rem;
+    font-weight: 700 ;
+}
+/* ################## utilily classes  ############ */
+ 
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+.bg-dark{
+    
+}
+.lg-heading{
+   font-size: 2rem;
+}
+.md-heading{
+   font-size: 1.6rem;
+
+}
+.text-red{
+   color: #e63946;
+}
+
+.text-light{
+   color: #f4f4f4;
+}
+.text-black{
+   color: #333;
+
+}
+ /* ############### header styling ################## */
+ .header{
+    position: relative;
+   
+ .navbar{
+    padding-top: 2rem;
+}
+ .logo,
+ .navbar a{
+    color: white;
+
+}
+ .navbar .logo{
+    float: left;
+    padding-top: 0.3rem;
+}
+ .navbar .nav-items{
+    float:right;
+}
+ .navbar .nav-item{
+   display: inline-block;
+   padding-left: 1rem;
+   padding-top: 1rem;
+}
+.navbar .logo a{
+   padding: 0.6rem;
+}
+.header .navbar .nav-item a{
+   padding-bottom: 5px;
+}
